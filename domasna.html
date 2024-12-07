@@ -1,0 +1,83 @@
+<doctype html>
+    <html>
+        <head>
+            <title>Domasna</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <body>
+            <div>
+            <h1>Form application</h1>
+            <div><label>username <input type="text" name="username" id="username" required></label></div><br>
+           <div <label>password <input type="password" name="password" id="password" required></label></div><br>
+           <div> <label>email <input type="email" name="email" id="email" required></label></div><br>
+            <label>age <input type="number" name="age" id="age" required></label><br>
+            </div>
+            <div>
+            <p>Gender: </p><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label><br>
+            </div>
+            <br>
+            <div>
+           
+            <input type="file" id="file"><br>
+            </div>
+            <style>
+.black-button {
+            background-color: black;
+            color: white;
+            border: 5px solid gray;
+            padding: 5px 25px;
+            font-size: 16px;
+            cursor: pointer;
+}
+.black-button:hover {
+    background-color: darkgray;
+}
+            </style>
+            <div>
+            <input type="button" class="black-button"><br>
+            <input type="date" name="date" id="date" required>>
+            <input type="time" name="time" id="time" required><br>
+            </div>
+            <br>
+
+            <div>
+                <label for="comment"><b>About you:</b></label>
+              <br>
+              <textarea name="comment" id="comment" cols="30" rows="7" placeholder="enter info about you"></textarea><br>
+              <input type="submit" value="submit">
+              </div>
+              <br>
+              <div>
+                <p style="font-size: 17px;">Module:</p>
+                <select name="Module" id="Module">
+                  <option value="1">Html</option>
+                  <option value="2">Css</option>
+                  <option value="3">Javascript</option>
+                  <option value="4">PHP</option>
+                  <option value="5">Python</option>
+                  <option value="6">Java</option>
+                  <option value="7">C#</option>
+                  <option value="8">C++</option>
+                  <option value="9">C</option>
+                  <option value="10">Ruby</option><br>
+                </select>
+              </div>
+              <br>
+              <br>
+              <div>
+                <input type="checkbox" name="terms" id="terms" required>I accept the terms & conditions.
+              </div>
+              <br>
+              <br>
+              <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+              </div>
+
+        </body>    
+        </head>
+    </html>
